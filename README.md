@@ -2,7 +2,7 @@
 
 Beautify is a modern e-commerce platform for transformative skincare and beauty products, featuring a full-featured admin dashboard, blog, and user management system. The project is split into a React + Vite frontend and a Node.js + Express + MongoDB backend.
 
-![Project](https://github.com/Kasfia-Mostafa/Beautify/blob/main/beautify.png?raw=true)
+![Project](https://raw.githubusercontent.com/Kasfia-Mostafa/Beautify/refs/heads/main/beautify.png)
 ---
 
 ## Table of Contents
