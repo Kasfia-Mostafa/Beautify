@@ -1,0 +1,2768 @@
+[{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccd9e"
+  },
+  "name": "Argan Hair Oil",
+  "description": "Nourish your hair with our Argan Hair Oil, rich in vitamins for shiny and healthy locks.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/NgZSty8L/product-1.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 1750,
+      "stock": 40,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccd9f"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 3000,
+      "stock": 42,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda0"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 4700,
+      "stock": 41,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:16:33.346Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccda2"
+  },
+  "name": "Coconut Body Oil",
+  "description": "Hydrate your skin with our Coconut Body Oil, providing deep moisture and a tropical scent.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/Y4CrhzDd/product-2.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 2200,
+      "stock": 15,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda3"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3850,
+      "stock": 15,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda4"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 5500,
+      "stock": 15,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccda6"
+  },
+  "name": "Jojoba Face Oil",
+  "description": "Balance your skin with our Jojoba Face Oil, ideal for all skin types.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/4n801QG0/product-3.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 2750,
+      "stock": 88,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda7"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 4400,
+      "stock": 88,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda8"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6600,
+      "stock": 88,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccda9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdaa"
+  },
+  "name": "Tea Tree Hair Oil",
+  "description": "Purify your scalp with our Tea Tree Hair Oil, helping to reduce dandruff.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/kVb0H2gR/product-4.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 1980,
+      "stock": 22,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdab"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 3300,
+      "stock": 12,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdac"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 4950,
+      "stock": 12,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdad"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:52:37.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdae"
+  },
+  "name": "Almond Body Oil",
+  "description": "Soften your skin with our Almond Body Oil, enriched with vitamin E.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/Dmhn1x9/product-5.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 2420,
+      "stock": 54,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdaf"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 4180,
+      "stock": 54,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb0"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 6050,
+      "stock": 54,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdb2"
+  },
+  "name": "Rosehip Face Oil",
+  "description": "Rejuvenate your complexion with our Rosehip Face Oil.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/h1DjkBg5/product-6.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 3080,
+      "stock": 31,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb3"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 4950,
+      "stock": 31,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb4"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7150,
+      "stock": 31,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdb6"
+  },
+  "name": "Castor Hair Oil",
+  "description": "Strengthen your hair with our Castor Hair Oil.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/8L476fRr/product-7.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 1320,
+      "stock": 95,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb7"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 2200,
+      "stock": 95,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb8"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3850,
+      "stock": 95,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdb9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdba"
+  },
+  "name": "Lavender Body Oil",
+  "description": "Relax your body with our Lavender Body Oil.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/PvjDHtYm/product-8.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 2750,
+      "stock": 20,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdbb"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 4400,
+      "stock": 22,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdbc"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 6600,
+      "stock": 22,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdbd"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:50.740Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdbe"
+  },
+  "name": "Vitamin C Face Oil",
+  "description": "Brighten your skin with our Vitamin C Face Oil.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Oil",
+  "images": [
+    "https://i.ibb.co.com/BVDp605n/product-9.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 3300,
+      "stock": 7,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdbf"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 5500,
+      "stock": 7,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc0"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 8250,
+      "stock": 7,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdc2"
+  },
+  "name": "Citrus Burst Perfume",
+  "description": "Invigorate your senses with our Citrus Burst Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/GvD17Rt6/product-10.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4400,
+      "stock": 44,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc3"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6600,
+      "stock": 44,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc4"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9350,
+      "stock": 44,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.679Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdc6"
+  },
+  "name": "Floral Dream Perfume",
+  "description": "Embrace elegance with our Floral Dream Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/rG5kx0zR/product-11.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4950,
+      "stock": 38,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc7"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7150,
+      "stock": 38,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc8"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9900,
+      "stock": 38,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdc9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdca"
+  },
+  "name": "Woody Spice Perfume",
+  "description": "Discover depth with our Woody Spice Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/GvWtqPdQ/product-12.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 3850,
+      "stock": 29,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdcb"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6050,
+      "stock": 29,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdcc"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 8800,
+      "stock": 29,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdcd"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdce"
+  },
+  "name": "Ocean Breeze Perfume",
+  "description": "Feel refreshed with our Ocean Breeze Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/VW87wFxm/product-13.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4620,
+      "stock": 61,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdcf"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6820,
+      "stock": 61,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd0"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9680,
+      "stock": 61,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdd2"
+  },
+  "name": "Vanilla Musk Perfume",
+  "description": "Indulge in sweetness with our Vanilla Musk Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/DD2LMS5r/product-14.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4180,
+      "stock": 19,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd3"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6380,
+      "stock": 19,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd4"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9020,
+      "stock": 19,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdd6"
+  },
+  "name": "Spicy Amber Perfume",
+  "description": "Ignite passion with our Spicy Amber Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/B2SbCVTw/product-15.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4840,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd7"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7040,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd8"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9790,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdd9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdda"
+  },
+  "name": "Fresh Mint Perfume",
+  "description": "Awaken your day with our Fresh Mint Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/C3jgbXP4/product-16.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 3960,
+      "stock": 74,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccddb"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6160,
+      "stock": 74,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccddc"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 8910,
+      "stock": 74,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccddd"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdde"
+  },
+  "name": "Exotic Oud Perfume",
+  "description": "Experience luxury with our Exotic Oud Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/XrZ2KWQm/product-17.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 5280,
+      "stock": 10,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccddf"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7700,
+      "stock": 10,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde0"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 10450,
+      "stock": 10,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccde2"
+  },
+  "name": "Berry Bliss Perfume",
+  "description": "Delight in fruitiness with our Berry Bliss Perfume.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Perfume",
+  "images": [
+    "https://i.ibb.co.com/kg8yb5y4/product-18.png"
+  ],
+  "variants": [
+    {
+      "size": "50ml",
+      "price": 4290,
+      "stock": 55,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde3"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6490,
+      "stock": 55,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde4"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 9240,
+      "stock": 55,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccde6"
+  },
+  "name": "Hyaluronic Acid Serum",
+  "description": "Hydrate deeply with our Hyaluronic Acid Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Serum",
+  "images": [
+    "https://i.ibb.co.com/Vc52Mwtt/product-19.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 2750,
+      "stock": 80,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde7"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 4400,
+      "stock": 80,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde8"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6600,
+      "stock": 80,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccde9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdea"
+  },
+  "name": "Vitamin C Brightening Serum",
+  "description": "Illuminate your complexion with our Vitamin C Brightening Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Serum",
+  "images": [
+    "https://i.ibb.co.com/27BXW1NC/product-20.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 3080,
+      "stock": 46,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdeb"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 4950,
+      "stock": 46,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdec"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7150,
+      "stock": 46,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccded"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdee"
+  },
+  "name": "Retinol Anti-Aging Serum",
+  "description": "Smooth wrinkles with our Retinol Anti-Aging Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Serum",
+  "images": [
+    "https://i.ibb.co.com/G3fwk6Px/product-21.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 3300,
+      "stock": 18,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdef"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 5500,
+      "stock": 18,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf0"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 7700,
+      "stock": 18,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf1"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdf2"
+  },
+  "name": "Niacinamide Balancing Serum",
+  "description": "Control oil with our Niacinamide Balancing Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Serum",
+  "images": [
+    "https://i.ibb.co.com/JRHtKSGp/product-22.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 2420,
+      "stock": 92,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf3"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 3850,
+      "stock": 92,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf4"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 6050,
+      "stock": 92,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf5"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdf6"
+  },
+  "name": "Peptide Firming Serum",
+  "description": "Firm and lift with our Peptide Firming Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Serum",
+  "images": [
+    "https://i.ibb.co.com/JWdTS0hY/product-23.png"
+  ],
+  "variants": [
+    {
+      "size": "30ml",
+      "price": 3520,
+      "stock": 25,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf7"
+      }
+    },
+    {
+      "size": "50ml",
+      "price": 5720,
+      "stock": 25,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf8"
+      }
+    },
+    {
+      "size": "100ml",
+      "price": 8250,
+      "stock": 25,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdf9"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdfa"
+  },
+  "name": "Volumizing Shampoo",
+  "description": "Boost volume with our Volumizing Shampoo.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Shampoo",
+  "images": [
+    "https://i.ibb.co.com/pBWSfBDW/product-24.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 1650,
+      "stock": 66,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdfb"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 2750,
+      "stock": 66,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdfc"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 4400,
+      "stock": 66,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdfd"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0ccdfe"
+  },
+  "name": "Moisturizing Shampoo",
+  "description": "Hydrate dry hair with our Moisturizing Shampoo.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Shampoo",
+  "images": [
+    "https://i.ibb.co.com/SX308rQS/product-25.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 1980,
+      "stock": 4,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0ccdff"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3300,
+      "stock": 4,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce00"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 4950,
+      "stock": 4,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce01"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce02"
+  },
+  "name": "Clarifying Shampoo",
+  "description": "Deep clean with our Clarifying Shampoo.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Shampoo",
+  "images": [
+    "https://i.ibb.co.com/7dHXrZGg/product-26.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 2200,
+      "stock": 39,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce03"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3850,
+      "stock": 39,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce04"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 5500,
+      "stock": 39,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce05"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce06"
+  },
+  "name": "Anti-Dandruff Shampoo",
+  "description": "Combat flakes with our Anti-Dandruff Shampoo.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Shampoo",
+  "images": [
+    "https://i.ibb.co.com/8LNQrfYD/product-27.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 1760,
+      "stock": 72,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce07"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3080,
+      "stock": 72,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce08"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 4620,
+      "stock": 72,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce09"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce0a"
+  },
+  "name": "Color-Protect Shampoo",
+  "description": "Preserve color with our Color-Protect Shampoo.",
+  "brand": "Beautify",
+  "category": "Hair Care",
+  "type": "Shampoo",
+  "images": [
+    "https://i.ibb.co.com/JW3bcpgs/product-28.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 2090,
+      "stock": 50,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce0b"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3520,
+      "stock": 51,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce0c"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 5280,
+      "stock": 51,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce0d"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:40.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce0e"
+  },
+  "name": "Fresh Citrus Body Spray",
+  "description": "Refresh instantly with our Fresh Citrus Body Spray.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Body-Spray",
+  "images": [
+    "https://i.ibb.co.com/Nz4vZ5g/product-29.png"
+  ],
+  "variants": [
+    {
+      "size": "150ml",
+      "price": 1320,
+      "stock": 83,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce0f"
+      }
+    },
+    {
+      "size": "250ml",
+      "price": 2200,
+      "stock": 83,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce10"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 3850,
+      "stock": 83,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce11"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce12"
+  },
+  "name": "Cool Mint Body Spray",
+  "description": "Energize with our Cool Mint Body Spray.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Body-Spray",
+  "images": [
+    "https://i.ibb.co.com/WWSGw7nK/product-30.png"
+  ],
+  "variants": [
+    {
+      "size": "150ml",
+      "price": 1540,
+      "stock": 27,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce13"
+      }
+    },
+    {
+      "size": "250ml",
+      "price": 2420,
+      "stock": 27,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce14"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 4180,
+      "stock": 27,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce15"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce16"
+  },
+  "name": "Vanilla Dream Body Spray",
+  "description": "Sweeten your day with our Vanilla Dream Body Spray.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Body-Spray",
+  "images": [
+    "https://i.ibb.co.com/QFCcNT2C/product-31.png"
+  ],
+  "variants": [
+    {
+      "size": "150ml",
+      "price": 1430,
+      "stock": 40,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce17"
+      }
+    },
+    {
+      "size": "250ml",
+      "price": 2310,
+      "stock": 40,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce18"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 3960,
+      "stock": 40,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce19"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce1a"
+  },
+  "name": "Ocean Wave Body Spray",
+  "description": "Evoke the sea with our Ocean Wave Body Spray.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Body-Spray",
+  "images": [
+    "https://i.ibb.co.com/XrLQkkPw/product-32.png"
+  ],
+  "variants": [
+    {
+      "size": "150ml",
+      "price": 1650,
+      "stock": 14,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce1b"
+      }
+    },
+    {
+      "size": "250ml",
+      "price": 2750,
+      "stock": 14,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce1c"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 4400,
+      "stock": 14,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce1d"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce1e"
+  },
+  "name": "Berry Fresh Body Spray",
+  "description": "Burst with fruitiness using our Berry Fresh Body Spray.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Body-Spray",
+  "images": [
+    "https://i.ibb.co.com/B2Wr3G4G/product-33.png"
+  ],
+  "variants": [
+    {
+      "size": "150ml",
+      "price": 1210,
+      "stock": 90,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce1f"
+      }
+    },
+    {
+      "size": "250ml",
+      "price": 1980,
+      "stock": 90,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce20"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 3520,
+      "stock": 90,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce21"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce22"
+  },
+  "name": "Gentle Foaming Cleanser",
+  "description": "Cleanse softly with our Gentle Foaming Cleanser.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Cleanser",
+  "images": [
+    "https://i.ibb.co.com/2Y3w83q3/product-34.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1650,
+      "stock": 56,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce23"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 2750,
+      "stock": 56,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce24"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 4400,
+      "stock": 56,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce25"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce26"
+  },
+  "name": "Oil-Control Cleanser",
+  "description": "Mattify with our Oil-Control Cleanser.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Cleanser",
+  "images": [
+    "https://i.ibb.co.com/kVxLcBkm/product-35.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1980,
+      "stock": 23,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce27"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3300,
+      "stock": 23,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce28"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 4950,
+      "stock": 23,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce29"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce2a"
+  },
+  "name": "Hydrating Milk Cleanser",
+  "description": "Moisturize while cleaning with our Hydrating Milk Cleanser.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Cleanser",
+  "images": [
+    "https://i.ibb.co.com/PZpht7PZ/product-36.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 2200,
+      "stock": 67,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce2b"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3850,
+      "stock": 67,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce2c"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 5500,
+      "stock": 67,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce2d"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce2e"
+  },
+  "name": "Exfoliating Gel Cleanser",
+  "description": "Renew skin with our Exfoliating Gel Cleanser.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Cleanser",
+  "images": [
+    "https://i.ibb.co.com/zVDv8DXY/product-37.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 2420,
+      "stock": 35,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce2f"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 4180,
+      "stock": 35,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce30"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 6050,
+      "stock": 35,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce31"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce32"
+  },
+  "name": "Micellar Water Cleanser",
+  "description": "Remove makeup easily with our Micellar Water Cleanser.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Cleanser",
+  "images": [
+    "https://i.ibb.co.com/v4x64L20/product-38.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1760,
+      "stock": 77,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce33"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3080,
+      "stock": 77,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce34"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 4620,
+      "stock": 77,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce35"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce36"
+  },
+  "name": "Antibacterial Hand Wash",
+  "description": "Protect with our Antibacterial Hand Wash.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Hand-Wash",
+  "images": [
+    "https://i.ibb.co.com/d47Hn58M/product-39.png"
+  ],
+  "variants": [
+    {
+      "size": "250ml",
+      "price": 1100,
+      "stock": 99,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce37"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 1980,
+      "stock": 99,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce38"
+      }
+    },
+    {
+      "size": "1000ml",
+      "price": 3300,
+      "stock": 99,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce39"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce3a"
+  },
+  "name": "Moisturizing Hand Wash",
+  "description": "Hydrate hands with our Moisturizing Hand Wash.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Hand-Wash",
+  "images": [
+    "https://i.ibb.co.com/fzh3dspn/product-40.png"
+  ],
+  "variants": [
+    {
+      "size": "250ml",
+      "price": 1320,
+      "stock": 47,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce3b"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 2200,
+      "stock": 48,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce3c"
+      }
+    },
+    {
+      "size": "1000ml",
+      "price": 3850,
+      "stock": 48,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce3d"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:39.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce3e"
+  },
+  "name": "Citrus Scented Hand Wash",
+  "description": "Refresh with our Citrus Scented Hand Wash.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Hand-Wash",
+  "images": [
+    "https://i.ibb.co.com/Kpyvr93S/product-41.png"
+  ],
+  "variants": [
+    {
+      "size": "250ml",
+      "price": 1210,
+      "stock": 11,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce3f"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 2090,
+      "stock": 11,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce40"
+      }
+    },
+    {
+      "size": "1000ml",
+      "price": 3520,
+      "stock": 11,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce41"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce42"
+  },
+  "name": "Lavender Calming Hand Wash",
+  "description": "Soothe with our Lavender Calming Hand Wash.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Hand-Wash",
+  "images": [
+    "https://i.ibb.co.com/sd9rrMLq/product-42.png"
+  ],
+  "variants": [
+    {
+      "size": "250ml",
+      "price": 1430,
+      "stock": 82,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce43"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 2420,
+      "stock": 82,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce44"
+      }
+    },
+    {
+      "size": "1000ml",
+      "price": 4180,
+      "stock": 82,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce45"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce46"
+  },
+  "name": "Tea Tree Purifying Hand Wash",
+  "description": "Purify with our Tea Tree Purifying Hand Wash.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Hand-Wash",
+  "images": [
+    "https://i.ibb.co.com/SX69fV7H/product-43.png"
+  ],
+  "variants": [
+    {
+      "size": "250ml",
+      "price": 1540,
+      "stock": 15,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce47"
+      }
+    },
+    {
+      "size": "500ml",
+      "price": 2640,
+      "stock": 16,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce48"
+      }
+    },
+    {
+      "size": "1000ml",
+      "price": 4400,
+      "stock": 16,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce49"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:39.166Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce4a"
+  },
+  "name": "Matte Red Lipstick",
+  "description": "Achieve bold lips with our Matte Red Lipstick.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Lip-Product",
+  "images": [
+    "https://i.ibb.co.com/KjxwDVRw/product-44.png"
+  ],
+  "variants": [
+    {
+      "size": "3g",
+      "price": 1650,
+      "stock": 59,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce4b"
+      }
+    },
+    {
+      "size": "5g",
+      "price": 2750,
+      "stock": 59,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce4c"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce4d"
+  },
+  "name": "Hydrating Lip Balm",
+  "description": "Moisturize with our Hydrating Lip Balm.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Lip-Product",
+  "images": [
+    "https://i.ibb.co.com/m5Pc3M4P/product-45.png"
+  ],
+  "variants": [
+    {
+      "size": "4g",
+      "price": 1100,
+      "stock": 43,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce4e"
+      }
+    },
+    {
+      "size": "8g",
+      "price": 1980,
+      "stock": 43,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce4f"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce50"
+  },
+  "name": "Glossy Pink Lip Gloss",
+  "description": "Shine bright with our Glossy Pink Lip Gloss.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Lip-Product",
+  "images": [
+    "https://i.ibb.co.com/3ywZ5Tcj/product-46.png"
+  ],
+  "variants": [
+    {
+      "size": "5ml",
+      "price": 1320,
+      "stock": 71,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce51"
+      }
+    },
+    {
+      "size": "10ml",
+      "price": 2200,
+      "stock": 71,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce52"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce53"
+  },
+  "name": "Vitamin E Lip Serum",
+  "description": "Repair and nourish with our Vitamin E Lip Serum.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Lip-Product",
+  "images": [
+    "https://i.ibb.co.com/wZnxwsz2/product-47.png"
+  ],
+  "variants": [
+    {
+      "size": "10ml",
+      "price": 1980,
+      "stock": 21,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce54"
+      }
+    },
+    {
+      "size": "20ml",
+      "price": 3300,
+      "stock": 21,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce55"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce56"
+  },
+  "name": "Nude Matte Lipstick",
+  "description": "Go natural with our Nude Matte Lipstick.",
+  "brand": "Beautify",
+  "category": "Face Care",
+  "type": "Lip-Product",
+  "images": [
+    "https://i.ibb.co.com/9Cvmw0p/product-48.png"
+  ],
+  "variants": [
+    {
+      "size": "3g",
+      "price": 1540,
+      "stock": 53,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce57"
+      }
+    },
+    {
+      "size": "5g",
+      "price": 2640,
+      "stock": 53,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce58"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce59"
+  },
+  "name": "Aloe Vera Body Lotion",
+  "description": "Soothe skin with our Aloe Vera Body Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/WNgxvXhW/product-49.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 1650,
+      "stock": 9,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce5a"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 2750,
+      "stock": 9,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce5b"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 4400,
+      "stock": 9,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce5c"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": true,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce5d"
+  },
+  "name": "Shea Butter Hand Lotion",
+  "description": "Nourish hands with our Shea Butter Hand Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/hxRYSw5P/product-50.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1320,
+      "stock": 64,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce5e"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 2200,
+      "stock": 64,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce5f"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3850,
+      "stock": 64,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce60"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce61"
+  },
+  "name": "Coconut Moisturizing Lotion",
+  "description": "Hydrate deeply with our Coconut Moisturizing Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/wZ12rPHX/product-51.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 1980,
+      "stock": 41,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce62"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3300,
+      "stock": 41,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce63"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 4950,
+      "stock": 41,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce64"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce65"
+  },
+  "name": "Lavender Relaxing Lotion",
+  "description": "Calm your skin with our Lavender Relaxing Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/xSx9RBpz/product-52.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1540,
+      "stock": 86,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce66"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 2420,
+      "stock": 86,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce67"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 4180,
+      "stock": 86,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce68"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce69"
+  },
+  "name": "Vitamin E Enriched Lotion",
+  "description": "Protect and repair with our Vitamin E Enriched Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/nMGqhv7c/product-53.png"
+  ],
+  "variants": [
+    {
+      "size": "200ml",
+      "price": 2200,
+      "stock": 5,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce6a"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 3850,
+      "stock": 5,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce6b"
+      }
+    },
+    {
+      "size": "750ml",
+      "price": 5500,
+      "stock": 5,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce6c"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ecfd3693c899e58f0cce6d"
+  },
+  "name": "Unscented Sensitive Lotion",
+  "description": "Gentle care with our Unscented Sensitive Lotion.",
+  "brand": "Beautify",
+  "category": "Body Care",
+  "type": "Lotion",
+  "images": [
+    "https://i.ibb.co.com/GQdFS0NS/product-54.png"
+  ],
+  "variants": [
+    {
+      "size": "100ml",
+      "price": 1760,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce6e"
+      }
+    },
+    {
+      "size": "200ml",
+      "price": 3080,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce6f"
+      }
+    },
+    {
+      "size": "400ml",
+      "price": 4620,
+      "stock": 33,
+      "_id": {
+        "$oid": "69ecfd3693c899e58f0cce70"
+      }
+    }
+  ],
+  "ratings": {
+    "average": 0,
+    "count": 0
+  },
+  "isFeatured": false,
+  "reviews": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-25T17:43:18.681Z"
+  }
+}]

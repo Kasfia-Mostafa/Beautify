@@ -1,0 +1,1458 @@
+[{
+  "_id": {
+    "$oid": "69edb86b516d59c0bf5e2730"
+  },
+  "user": {
+    "$oid": "69ed0c94a50acfcb16cdf982"
+  },
+  "orderItems": [
+    {
+      "name": "Lavender Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/PvjDHtYm/product-8.png",
+      "size": "100ml",
+      "price": 2750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdba"
+      },
+      "_id": {
+        "$oid": "69edb86b516d59c0bf5e2731"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Sector - 4 , Road - 2",
+    "city": "Dhaka",
+    "postalCode": "1230",
+    "phone": "01608640114"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 2750,
+  "shippingPrice": 60,
+  "totalPrice": 2810,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T07:02:03.573Z"
+  },
+  "status": "Cancelled",
+  "createdAt": {
+    "$date": "2026-04-25T07:02:03.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:51:01.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edb8ee5e078fc61b57f84e"
+  },
+  "user": {
+    "$oid": "69ed0c94a50acfcb16cdf982"
+  },
+  "orderItems": [
+    {
+      "name": "Vitamin C Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/BVDp605n/product-9.png",
+      "size": "30ml",
+      "price": 3300,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdbe"
+      },
+      "_id": {
+        "$oid": "69edb8ee5e078fc61b57f84f"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Sector - 4 , Road - 2",
+    "city": "Dhaka",
+    "postalCode": "1230",
+    "phone": "01608640114"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 3300,
+  "shippingPrice": 60,
+  "totalPrice": 3360,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T07:04:14.883Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-23T07:04:14.908Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:56:59.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edb9ba5e078fc61b57f850"
+  },
+  "user": {
+    "$oid": "69ed0c94a50acfcb16cdf982"
+  },
+  "orderItems": [
+    {
+      "name": "Vitamin C Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/BVDp605n/product-9.png",
+      "size": "30ml",
+      "price": 3300,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdbe"
+      },
+      "_id": {
+        "$oid": "69edb9ba5e078fc61b57f851"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Sector - 4 , Road - 2",
+    "city": "Dhaka",
+    "postalCode": "1230",
+    "phone": "01608640114"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 3300,
+  "shippingPrice": 60,
+  "totalPrice": 3360,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T07:07:38.719Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-24T07:07:38.722Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:56:59.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edba4515b7d528355ccf40"
+  },
+  "user": {
+    "$oid": "69ed0c94a50acfcb16cdf982"
+  },
+  "orderItems": [
+    {
+      "name": "Lavender Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/PvjDHtYm/product-8.png",
+      "size": "100ml",
+      "price": 2750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdba"
+      },
+      "_id": {
+        "$oid": "69edba4515b7d528355ccf41"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Sector - 4 , Road - 2",
+    "city": "Dhaka",
+    "postalCode": "1230",
+    "phone": "01608640114"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 2750,
+  "shippingPrice": 60,
+  "totalPrice": 2810,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T07:09:57.082Z"
+  },
+  "status": "Delivered",
+  "createdAt": {
+    "$date": "2026-04-26T07:09:57.094Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:51.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edcdce7bd5e6481b6ea2c1"
+  },
+  "user": {
+    "$oid": "69ed8f177acca2dbb2578643"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 3,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69edcdce7bd5e6481b6ea2c2"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 5250,
+  "shippingPrice": 60,
+  "totalPrice": 5310,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T08:33:18.001Z"
+  },
+  "status": "Delivered",
+  "createdAt": {
+    "$date": "2026-04-22T08:33:18.020Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:46.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edcdea7bd5e6481b6ea403"
+  },
+  "user": {
+    "$oid": "69ed8f177acca2dbb2578643"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 3,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69edcdea7bd5e6481b6ea404"
+      }
+    },
+    {
+      "name": "Peptide Firming Serum",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/JWdTS0hY/product-23.png",
+      "size": "30ml",
+      "price": 3520,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdf6"
+      },
+      "_id": {
+        "$oid": "69edcdea7bd5e6481b6ea405"
+      }
+    },
+    {
+      "name": "Gentle Foaming Cleanser",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/2Y3w83q3/product-34.png",
+      "size": "100ml",
+      "price": 1650,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce22"
+      },
+      "_id": {
+        "$oid": "69edcdea7bd5e6481b6ea406"
+      }
+    },
+    {
+      "name": "Citrus Burst Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/GvD17Rt6/product-10.png",
+      "size": "50ml",
+      "price": 4400,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdc2"
+      },
+      "_id": {
+        "$oid": "69edcdea7bd5e6481b6ea407"
+      }
+    },
+    {
+      "name": "Floral Dream Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/rG5kx0zR/product-11.png",
+      "size": "50ml",
+      "price": 4950,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdc6"
+      },
+      "_id": {
+        "$oid": "69edcdea7bd5e6481b6ea408"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 19770,
+  "shippingPrice": 0,
+  "totalPrice": 19770,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T08:33:46.284Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-22T08:33:46.289Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:33:46.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edce577bd5e6481b6ea7b7"
+  },
+  "user": {
+    "$oid": "69ed8c317acca2dbb257715d"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 2,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69edce577bd5e6481b6ea7b8"
+      }
+    },
+    {
+      "name": "Tea Tree Purifying Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/SX69fV7H/product-43.png",
+      "size": "250ml",
+      "price": 1540,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce46"
+      },
+      "_id": {
+        "$oid": "69edce577bd5e6481b6ea7b9"
+      }
+    },
+    {
+      "name": "Moisturizing Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/fzh3dspn/product-40.png",
+      "size": "250ml",
+      "price": 1320,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce3a"
+      },
+      "_id": {
+        "$oid": "69edce577bd5e6481b6ea7ba"
+      }
+    },
+    {
+      "name": "Color-Protect Shampoo",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/JW3bcpgs/product-28.png",
+      "size": "200ml",
+      "price": 2090,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce0a"
+      },
+      "_id": {
+        "$oid": "69edce577bd5e6481b6ea7bb"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 8450,
+  "shippingPrice": 60,
+  "totalPrice": 8510,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T08:35:35.185Z"
+  },
+  "status": "Delivered",
+  "createdAt": {
+    "$date": "2026-04-22T08:35:35.188Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:40.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd3ce5c79396dbf954c75"
+  },
+  "user": {
+    "$oid": "69ed8ef67acca2dbb2578508"
+  },
+  "orderItems": [
+    {
+      "name": "Tea Tree Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/kVb0H2gR/product-4.png",
+      "size": "50ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdaa"
+      },
+      "_id": {
+        "$oid": "69edd3ce5c79396dbf954c76"
+      }
+    },
+    {
+      "name": "Vitamin C Brightening Serum",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/27BXW1NC/product-20.png",
+      "size": "30ml",
+      "price": 3080,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdea"
+      },
+      "_id": {
+        "$oid": "69edd3ce5c79396dbf954c77"
+      }
+    },
+    {
+      "name": "Niacinamide Balancing Serum",
+      "quantity": 2,
+      "image": "https://i.ibb.co.com/JRHtKSGp/product-22.png",
+      "size": "30ml",
+      "price": 2420,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdf2"
+      },
+      "_id": {
+        "$oid": "69edd3ce5c79396dbf954c78"
+      }
+    },
+    {
+      "name": "Clarifying Shampoo",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/7dHXrZGg/product-26.png",
+      "size": "200ml",
+      "price": 2200,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce02"
+      },
+      "_id": {
+        "$oid": "69edd3ce5c79396dbf954c79"
+      }
+    },
+    {
+      "name": "Antibacterial Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/d47Hn58M/product-39.pn",
+      "size": "250ml",
+      "price": 1100,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce36"
+      },
+      "_id": {
+        "$oid": "69edd3ce5c79396dbf954c7a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 13200,
+  "shippingPrice": 0,
+  "totalPrice": 13200,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T08:58:54.086Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-21T08:58:54.110Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:58:54.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd41d5c79396dbf955029"
+  },
+  "user": {
+    "$oid": "69ed8c6e7acca2dbb25773d3"
+  },
+  "orderItems": [
+    {
+      "name": "Gentle Foaming Cleanser",
+      "quantity": 2,
+      "image": "https://i.ibb.co.com/2Y3w83q3/product-34.png",
+      "size": "100ml",
+      "price": 1650,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce22"
+      },
+      "_id": {
+        "$oid": "69edd41d5c79396dbf95502a"
+      }
+    },
+    {
+      "name": "Tea Tree Purifying Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/SX69fV7H/product-43.png",
+      "size": "250ml",
+      "price": 1540,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce46"
+      },
+      "_id": {
+        "$oid": "69edd41d5c79396dbf95502b"
+      }
+    },
+    {
+      "name": "Vitamin E Lip Serum",
+      "quantity": 2,
+      "image": "https://i.ibb.co.com/wZnxwsz2/product-47.png",
+      "size": "10ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce53"
+      },
+      "_id": {
+        "$oid": "69edd41d5c79396dbf95502c"
+      }
+    },
+    {
+      "name": "Ocean Breeze Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/VW87wFxm/product-13.png",
+      "size": "50ml",
+      "price": 4620,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdce"
+      },
+      "_id": {
+        "$oid": "69edd41d5c79396dbf95502d"
+      }
+    },
+    {
+      "name": "Vanilla Musk Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/DD2LMS5r/product-14.png",
+      "size": "50ml",
+      "price": 4180,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdd2"
+      },
+      "_id": {
+        "$oid": "69edd41d5c79396dbf95502e"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 17600,
+  "shippingPrice": 0,
+  "totalPrice": 17600,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:00:13.887Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-23T09:00:13.892Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:00:13.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd4895c79396dbf955651"
+  },
+  "user": {
+    "$oid": "69ed8cc27acca2dbb2577784"
+  },
+  "orderItems": [
+    {
+      "name": "Tea Tree Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/kVb0H2gR/product-4.png",
+      "size": "50ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdaa"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955652"
+      }
+    },
+    {
+      "name": "Lavender Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/PvjDHtYm/product-8.png",
+      "size": "100ml",
+      "price": 2750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdba"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955653"
+      }
+    },
+    {
+      "name": "Floral Dream Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/rG5kx0zR/product-11.png",
+      "size": "50ml",
+      "price": 4950,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdc6"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955654"
+      }
+    },
+    {
+      "name": "Ocean Wave Body Spray",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/XrLQkkPw/product-32.png",
+      "size": "150ml",
+      "price": 1650,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce1a"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955655"
+      }
+    },
+    {
+      "name": "Oil-Control Cleanser",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/kVxLcBkm/product-35.png",
+      "size": "100ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce26"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955656"
+      }
+    },
+    {
+      "name": "Shea Butter Hand Lotion",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/hxRYSw5P/product-50.png",
+      "size": "100ml",
+      "price": 1320,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce5d"
+      },
+      "_id": {
+        "$oid": "69edd4895c79396dbf955657"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 14630,
+  "shippingPrice": 0,
+  "totalPrice": 14630,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:02:01.673Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-20T09:02:01.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:02:01.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd4cc5c79396dbf955792"
+  },
+  "user": {
+    "$oid": "69ed8cc27acca2dbb2577784"
+  },
+  "orderItems": [
+    {
+      "name": "Almond Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/Dmhn1x9/product-5.png",
+      "size": "100ml",
+      "price": 2420,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdae"
+      },
+      "_id": {
+        "$oid": "69edd4cc5c79396dbf955793"
+      }
+    },
+    {
+      "name": "Vitamin C Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/BVDp605n/product-9.png",
+      "size": "30ml",
+      "price": 3300,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdbe"
+      },
+      "_id": {
+        "$oid": "69edd4cc5c79396dbf955794"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 5720,
+  "shippingPrice": 60,
+  "totalPrice": 5780,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:03:08.676Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-20T09:03:08.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:03:08.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd4ee5c79396dbf9558cf"
+  },
+  "user": {
+    "$oid": "69ed8cc27acca2dbb2577784"
+  },
+  "orderItems": [
+    {
+      "name": "Vanilla Dream Body Spray",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/QFCcNT2C/product-31.png",
+      "size": "150ml",
+      "price": 1430,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce16"
+      },
+      "_id": {
+        "$oid": "69edd4ee5c79396dbf9558d0"
+      }
+    },
+    {
+      "name": "Gentle Foaming Cleanser",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/2Y3w83q3/product-34.png",
+      "size": "100ml",
+      "price": 1650,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce22"
+      },
+      "_id": {
+        "$oid": "69edd4ee5c79396dbf9558d1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 3080,
+  "shippingPrice": 60,
+  "totalPrice": 3140,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:03:42.292Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-20T09:03:42.295Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:03:42.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd5125c79396dbf955a0c"
+  },
+  "user": {
+    "$oid": "69ed8cc27acca2dbb2577784"
+  },
+  "orderItems": [
+    {
+      "name": "Coconut Moisturizing Lotion",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/wZ12rPHX/product-51.png",
+      "size": "200ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce61"
+      },
+      "_id": {
+        "$oid": "69edd5125c79396dbf955a0d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 1980,
+  "shippingPrice": 60,
+  "totalPrice": 2040,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:04:18.203Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-21T09:04:18.205Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:04:18.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd5545c79396dbf955c82"
+  },
+  "user": {
+    "$oid": "69ed8c317acca2dbb257715d"
+  },
+  "orderItems": [
+    {
+      "name": "Tea Tree Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/kVb0H2gR/product-4.png",
+      "size": "50ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdaa"
+      },
+      "_id": {
+        "$oid": "69edd5545c79396dbf955c83"
+      }
+    },
+    {
+      "name": "Almond Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/Dmhn1x9/product-5.png",
+      "size": "100ml",
+      "price": 2420,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdae"
+      },
+      "_id": {
+        "$oid": "69edd5545c79396dbf955c84"
+      }
+    },
+    {
+      "name": "Floral Dream Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/rG5kx0zR/product-11.png",
+      "size": "50ml",
+      "price": 4950,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdc6"
+      },
+      "_id": {
+        "$oid": "69edd5545c79396dbf955c85"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 9350,
+  "shippingPrice": 60,
+  "totalPrice": 9410,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:05:24.677Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-26T09:05:24.680Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:05:24.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd57a5c79396dbf955dc0"
+  },
+  "user": {
+    "$oid": "69ed8c317acca2dbb257715d"
+  },
+  "orderItems": [
+    {
+      "name": "Vitamin C Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/BVDp605n/product-9.png",
+      "size": "30ml",
+      "price": 3300,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdbe"
+      },
+      "_id": {
+        "$oid": "69edd57a5c79396dbf955dc1"
+      }
+    },
+    {
+      "name": "Oil-Control Cleanser",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/kVxLcBkm/product-35.png",
+      "size": "100ml",
+      "price": 1980,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce26"
+      },
+      "_id": {
+        "$oid": "69edd57a5c79396dbf955dc2"
+      }
+    },
+    {
+      "name": "Exfoliating Gel Cleanser",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/zVDv8DXY/product-37.png",
+      "size": "100ml",
+      "price": 2420,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce2e"
+      },
+      "_id": {
+        "$oid": "69edd57a5c79396dbf955dc3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 7700,
+  "shippingPrice": 60,
+  "totalPrice": 7760,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:06:02.965Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-25T09:06:02.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:06:02.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd63c5c79396dbf9562ac"
+  },
+  "user": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69edd63c5c79396dbf9562ad"
+      }
+    },
+    {
+      "name": "Rosehip Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/h1DjkBg5/product-6.png",
+      "size": "30ml",
+      "price": 3080,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdb2"
+      },
+      "_id": {
+        "$oid": "69edd63c5c79396dbf9562ae"
+      }
+    },
+    {
+      "name": "Anti-Dandruff Shampoo",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/8LNQrfYD/product-27.png",
+      "size": "200ml",
+      "price": 1760,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce06"
+      },
+      "_id": {
+        "$oid": "69edd63c5c79396dbf9562af"
+      }
+    },
+    {
+      "name": "Moisturizing Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/fzh3dspn/product-40.png",
+      "size": "250ml",
+      "price": 1320,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce3a"
+      },
+      "_id": {
+        "$oid": "69edd63c5c79396dbf9562b0"
+      }
+    },
+    {
+      "name": "Antibacterial Hand Wash",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/d47Hn58M/product-39.png",
+      "size": "250ml",
+      "price": 1100,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce36"
+      },
+      "_id": {
+        "$oid": "69edd63c5c79396dbf9562b1"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 9010,
+  "shippingPrice": 60,
+  "totalPrice": 9070,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:09:16.187Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-23T09:09:16.191Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:09:16.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd6965c79396dbf9563ec"
+  },
+  "user": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "orderItems": [
+    {
+      "name": "Lavender Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/PvjDHtYm/product-8.png",
+      "size": "100ml",
+      "price": 2750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdba"
+      },
+      "_id": {
+        "$oid": "69edd6965c79396dbf9563ed"
+      }
+    },
+    {
+      "name": "Ocean Breeze Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/VW87wFxm/product-13.png",
+      "size": "50ml",
+      "price": 4620,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdce"
+      },
+      "_id": {
+        "$oid": "69edd6965c79396dbf9563ee"
+      }
+    },
+    {
+      "name": "Vitamin C Brightening Serum",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/27BXW1NC/product-20.png",
+      "size": "30ml",
+      "price": 3080,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdea"
+      },
+      "_id": {
+        "$oid": "69edd6965c79396dbf9563ef"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 10450,
+  "shippingPrice": 0,
+  "totalPrice": 10450,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:10:46.527Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-23T09:10:46.530Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:10:46.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd6985c79396dbf9563f0"
+  },
+  "user": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "orderItems": [
+    {
+      "name": "Lavender Body Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/PvjDHtYm/product-8.png",
+      "size": "100ml",
+      "price": 2750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdba"
+      },
+      "_id": {
+        "$oid": "69edd6985c79396dbf9563f1"
+      }
+    },
+    {
+      "name": "Ocean Breeze Perfume",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/VW87wFxm/product-13.png",
+      "size": "50ml",
+      "price": 4620,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdce"
+      },
+      "_id": {
+        "$oid": "69edd6985c79396dbf9563f2"
+      }
+    },
+    {
+      "name": "Vitamin C Brightening Serum",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/27BXW1NC/product-20.png",
+      "size": "30ml",
+      "price": 3080,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdea"
+      },
+      "_id": {
+        "$oid": "69edd6985c79396dbf9563f3"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 10450,
+  "shippingPrice": 0,
+  "totalPrice": 10450,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:10:48.015Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-22T09:10:48.017Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:10:48.017Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd6cc5c79396dbf95652e"
+  },
+  "user": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "orderItems": [
+    {
+      "name": "Rosehip Face Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/h1DjkBg5/product-6.png",
+      "size": "30ml",
+      "price": 3080,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccdb2"
+      },
+      "_id": {
+        "$oid": "69edd6cc5c79396dbf95652f"
+      }
+    },
+    {
+      "name": "Glossy Pink Lip Gloss",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/3ywZ5Tcj/product-46.png",
+      "size": "5ml",
+      "price": 1320,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce50"
+      },
+      "_id": {
+        "$oid": "69edd6cc5c79396dbf956530"
+      }
+    },
+    {
+      "name": "Lavender Relaxing Lotion",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/xSx9RBpz/product-52.png",
+      "size": "100ml",
+      "price": 1540,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0cce65"
+      },
+      "_id": {
+        "$oid": "69edd6cc5c79396dbf956531"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 5940,
+  "shippingPrice": 60,
+  "totalPrice": 6000,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:11:40.085Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-26T09:11:40.086Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T09:11:40.086Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edd6f45c79396dbf95666c"
+  },
+  "user": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69edd6f45c79396dbf95666d"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 1750,
+  "shippingPrice": 60,
+  "totalPrice": 1810,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T09:12:20.754Z"
+  },
+  "status": "Delivered",
+  "createdAt": {
+    "$date": "2026-04-26T09:12:20.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:09:47.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2b952f8c460b2190c4c7"
+  },
+  "user": {
+    "$oid": "69ed8edc7acca2dbb25783cd"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69ee2b952f8c460b2190c4c8"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 1750,
+  "shippingPrice": 60,
+  "totalPrice": 1810,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T15:13:25.086Z"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2026-04-26T15:13:25.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:13:25.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2ba92f8c460b2190c603"
+  },
+  "user": {
+    "$oid": "69ed8edc7acca2dbb25783cd"
+  },
+  "orderItems": [
+    {
+      "name": "Argan Hair Oil",
+      "quantity": 1,
+      "image": "https://i.ibb.co.com/NgZSty8L/product-1.png",
+      "size": "50ml",
+      "price": 1750,
+      "product": {
+        "$oid": "69ecfd3693c899e58f0ccd9e"
+      },
+      "_id": {
+        "$oid": "69ee2ba92f8c460b2190c604"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "TBD",
+    "city": "TBD",
+    "postalCode": "0000",
+    "phone": "0000"
+  },
+  "paymentMethod": "Stripe",
+  "itemsPrice": 1750,
+  "shippingPrice": 60,
+  "totalPrice": 1810,
+  "isPaid": true,
+  "paidAt": {
+    "$date": "2026-04-26T15:13:45.458Z"
+  },
+  "status": "Delivered",
+  "createdAt": {
+    "$date": "2026-04-26T15:13:45.459Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:15:37.213Z"
+  },
+  "__v": 0
+}]

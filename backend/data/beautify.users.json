@@ -1,0 +1,299 @@
+[{
+  "_id": {
+    "$oid": "69ed0c94a50acfcb16cdf982"
+  },
+  "firstName": "Kasfia",
+  "lastName": "Sworna",
+  "email": "kasfiasworna@gmail.com",
+  "password": "$2b$10$nO4iut.59GtAn2soYrTrkOUnS7Tg9xIVlKwkGOctK1A03vksUz8.y",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-25T18:48:52.965Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:38:19.817Z"
+  },
+  "__v": 6,
+  "address": {
+    "street": "Sector - 4 , Road - 2",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "zipCode": "1230",
+    "phone": "01608640114"
+  },
+  "wishlist": [
+    {
+      "$oid": "69ecfd3693c899e58f0ccd9e"
+    },
+    {
+      "$oid": "69ecfd3693c899e58f0ccda2"
+    },
+    {
+      "$oid": "69ecfd3693c899e58f0ccdb2"
+    },
+    {
+      "$oid": "69ecfd3693c899e58f0ccdae"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "69ed8c317acca2dbb257715d"
+  },
+  "firstName": "Arif",
+  "lastName": "Rahman",
+  "email": "arif.rahman@example.com",
+  "password": "$2b$10$rI3.QsAdGreIlphZcS4AL.xcA2XHSIZpnxAF786VSz5wF/rIfwaQ.",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:53:21.394Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:53:21.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8c527acca2dbb2577298"
+  },
+  "firstName": "Sultana",
+  "lastName": "Ahmed",
+  "email": "s.ahmed@beautymail.com",
+  "password": "$2b$10$6bBEeiuqZLC3h15me5NAIuxIxtp2yE3AQiO.UsR2JKyRll1ozdB4m",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:53:54.878Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:53:54.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8c6e7acca2dbb25773d3"
+  },
+  "firstName": "Michael",
+  "lastName": "Chen",
+  "email": "m.chen92@provider.net",
+  "password": "$2b$10$5FILJZKbbJ8FjBi8Hg1wuOzGyThdvYsc1bl6PKNw8bOY2FnGhFtXW",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:54:22.905Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:54:22.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8c8c7acca2dbb257750e"
+  },
+  "firstName": "Sarah",
+  "lastName": "Hossain",
+  "email": "sarah.h@glowup.com",
+  "password": "$2b$10$kLHuGqwcYAUiyMFWGdQuI.M.83PIskyni7Y.7xPqftIUoWfwi99Cy",
+  "role": "manager",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:54:52.065Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:59:41.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8ca57acca2dbb2577649"
+  },
+  "firstName": "David",
+  "lastName": "Miller",
+  "email": "dave.miller@webmail.com",
+  "password": "$2b$10$sKHEr7ZehPNQ7OZDhVIisOfCe6cDGJT7GBloc0YAJ.s6sGY3PNEb6",
+  "role": "admin",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2026-04-26T03:55:17.258Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:56:15.519Z"
+  },
+  "__v": 2,
+  "address": {
+    "city": "",
+    "country": "",
+    "phone": "",
+    "street": "",
+    "zipCode": ""
+  },
+  "wishlist": []
+},
+{
+  "_id": {
+    "$oid": "69ed8cc27acca2dbb2577784"
+  },
+  "firstName": "Nadia",
+  "lastName": "Islam",
+  "email": "nadia.islam@service.org",
+  "password": "$2b$10$37AWRUWmtEYdmiaheEWPm.TXieQ2augVzlctKgMPwBip2QbC1b.8y",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:55:46.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:55:46.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8ce77acca2dbb25778bf"
+  },
+  "firstName": "James",
+  "lastName": "Wilson",
+  "email": "j.wilson@corp.com",
+  "password": "$2b$10$bzuE/HQYySsRYw4rzAcdweQo38XmV2dKynna7qbaaKL3Af1.4Zu/6",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:56:23.426Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:56:23.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8d057acca2dbb25779fa"
+  },
+  "firstName": "Elena",
+  "lastName": "Petrova",
+  "email": "elena.p@lifestyle.com",
+  "password": "$2b$10$c7sBLaA.sltw31ncQ8uQUeoxF3FKxkz7AWT2PeoUQ7h5DKaLCDFuu",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:56:53.444Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:56:53.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8d287acca2dbb2577b35"
+  },
+  "firstName": "Tanvir",
+  "lastName": "Hassan",
+  "email": "tanvir.h@outlook.com",
+  "password": "$2b$10$bdhLvWg6B6NrDWNPhRjC/.4OhzuJmsPRa8mP49YWDmjkeove9rF9G",
+  "role": "manager",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:57:28.311Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:59:57.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8d457acca2dbb2577c70"
+  },
+  "firstName": "Chloe",
+  "lastName": "Taylor",
+  "email": "chloe.t@skincare.net",
+  "password": "$2b$10$Wvjlv8B7Bc6./rTK4FbME.YArLx0AJWYuieudgXNswcXjnCLS2c2e",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T03:57:57.519Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T03:57:57.519Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8edc7acca2dbb25783cd"
+  },
+  "firstName": "Farhana",
+  "lastName": "Yasmin",
+  "email": "farhana.y@beautycare.com",
+  "password": "$2b$10$I.47Vmn0LB/NsZuhiID/yeW5LWHfgxqfdE1Vfyq5OgDUcyzreOqYK",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T04:04:44.081Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T04:04:44.081Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8ef67acca2dbb2578508"
+  },
+  "firstName": "Robert",
+  "lastName": "Smith",
+  "email": "r.smith@webmail.com",
+  "password": "$2b$10$tqcgJy1u9bzx0PIFy0CmM.i44JvmwX/B7WhC1vJePezLF5EatgO.i",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T04:05:10.968Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T04:05:10.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8f177acca2dbb2578643"
+  },
+  "firstName": "Mehzabin",
+  "lastName": "Chowdhury",
+  "email": "mehzabin.c@lifestyle.net",
+  "password": "$2b$10$gGSRU3SvWHt9wSd9ud.fNO55pBCMhiruAUb9qH/vUeELsgrYOPxia",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T04:05:43.658Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T04:05:43.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ed8f387acca2dbb257877e"
+  },
+  "firstName": "Daniel",
+  "lastName": "Lee",
+  "email": "d.lee99@provider.com",
+  "password": "$2b$10$h7L2jS6ykV.5d9K9t7Vwheoy4ubm/qDstkFEK0t0xSMFzm8Bb3YBu",
+  "role": "user",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-04-26T04:06:16.213Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T04:06:16.213Z"
+  },
+  "__v": 0
+}]

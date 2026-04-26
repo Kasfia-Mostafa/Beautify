@@ -1,0 +1,27 @@
+Admin: dave.miller@webmail.com
+Admin Pass: dave.miller@webmail.com
+
+Manager: sarah.h@glowup.com
+Manager Pass: sarah.h@glowup.com
+
+Manager: tanvir.h@outlook.com
+Manager Pass: tanvir.h@outlook.com
+
+User: farhana.y@beautycare.com
+User Pass: farhana.y@beautycare.com
+Name: Farhana Yeasmin
+
+Mastercard:	5555 5555 5555 4444
+CVC: 111
+04/28
+
+
+
+
+// Start Backend
+cd backend
+node server.js
+
+// Start Backend
+cd frontend
+npm run dev

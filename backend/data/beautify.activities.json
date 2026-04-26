@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "69edc3ba2226058d55475837"
+  },
+  "type": "order_update",
+  "message": "Order #5CCF40 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T07:50:18.975Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:18.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edc3c92226058d5547597b"
+  },
+  "type": "order_update",
+  "message": "Order #5CCF40 status changed to Pending",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T07:50:33.349Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:33.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edc3db2226058d55475ac2"
+  },
+  "type": "order_update",
+  "message": "Order #5CCF40 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T07:50:51.289Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:51.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edc3dc2226058d55475ac8"
+  },
+  "type": "order_update",
+  "message": "Order #5CCF40 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T07:50:52.512Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:50:52.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edc3e52226058d55475ace"
+  },
+  "type": "order_update",
+  "message": "Order #5E2730 status changed to Cancelled",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T07:51:01.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T07:51:01.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edce987bd5e6481b6ea922"
+  },
+  "type": "order_update",
+  "message": "Order #6EA7B7 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T08:36:40.819Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:40.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69edce9f7bd5e6481b6ea935"
+  },
+  "type": "order_update",
+  "message": "Order #6EA2C1 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T08:36:47.250Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T08:36:47.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee1877c4724f0cd713f355"
+  },
+  "type": "product_update",
+  "message": "Product \"Argan Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T13:51:51.253Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:51:51.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee1881c4724f0cd713f3f9"
+  },
+  "type": "product_update",
+  "message": "Product \"Tea Tree Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T13:52:01.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:52:01.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee188bc4724f0cd713f49d"
+  },
+  "type": "product_update",
+  "message": "Product \"Tea Tree Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T13:52:11.109Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:52:11.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee18a5c4724f0cd713f541"
+  },
+  "type": "product_update",
+  "message": "Product \"Tea Tree Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T13:52:37.299Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:52:37.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee1994c4724f0cd714036f"
+  },
+  "type": "product_update",
+  "message": "Product \"Argan Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T13:56:36.970Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T13:56:36.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee27509e57630e2cab4c53"
+  },
+  "type": "product_update",
+  "message": "Product \"Argan Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T14:55:12.449Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T14:55:12.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee29462f8c460b2190a38a"
+  },
+  "type": "product_create",
+  "message": "New product \"cat\" added",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:03:34.158Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:03:34.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee295d2f8c460b2190a430"
+  },
+  "type": "product_update",
+  "message": "Product \"cat\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:03:57.210Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:03:57.210Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2aa32f8c460b2190af7a"
+  },
+  "type": "product_delete",
+  "message": "Product \"cat\" removed",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:09:23.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:09:23.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2abc2f8c460b2190b236"
+  },
+  "type": "order_update",
+  "message": "Order #95666C status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:09:48.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:09:48.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2b202f8c460b2190bb87"
+  },
+  "type": "product_update",
+  "message": "Product \"Argan Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:11:28.220Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:11:28.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2c192f8c460b2190ca31"
+  },
+  "type": "order_update",
+  "message": "Order #90C603 status changed to Delivered",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:15:37.543Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:15:37.543Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ee2c512f8c460b2190d09a"
+  },
+  "type": "product_update",
+  "message": "Product \"Argan Hair Oil\" updated",
+  "admin": "System",
+  "createdAt": {
+    "$date": "2026-04-26T15:16:33.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T15:16:33.678Z"
+  },
+  "__v": 0
+}]
