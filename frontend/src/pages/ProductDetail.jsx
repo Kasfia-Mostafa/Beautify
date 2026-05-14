@@ -14,6 +14,11 @@ function ProductDetail() {
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
 
+  useEffect(() => {
+    setQuantity(1);
+    setAddedToCart(false);
+  }, [selectedVariant]);
+
   const { isWishlisted, addToWishlist, removeFromWishlist } = useWishlist();
   const { addToCart } = useCart();
 
@@ -34,7 +39,14 @@ function ProductDetail() {
 
   const handleAddToCart = () => {
     if (!user) return navigate('/signin');
-    addToCart(product, quantity);
+    // Create a specific cart item for the selected variant
+    const cartItem = {
+      ...product,
+      // We pass the specific variant as the first one so CartContext uses its price/size
+      variants: [product.variants[selectedVariant]],
+      selectedVariantIndex: selectedVariant
+    };
+    addToCart(cartItem, quantity);
     setAddedToCart(true);
   };
 
@@ -131,7 +143,13 @@ function ProductDetail() {
             <div className="flex items-center border border-outline-variant rounded-lg overflow-hidden">
               <button onClick={() => setQuantity(q => Math.max(1, q - 1))} className="px-4 py-2 text-primary hover:bg-surface-variant transition-colors">−</button>
               <span className="px-5 py-2 font-body-md border-x border-outline-variant">{quantity}</span>
-              <button onClick={() => setQuantity(q => q + 1)} className="px-4 py-2 text-primary hover:bg-surface-variant transition-colors">+</button>
+              <button 
+                onClick={() => setQuantity(q => product.variants[selectedVariant]?.stock > q ? q + 1 : q)} 
+                className="px-4 py-2 text-primary hover:bg-surface-variant transition-colors"
+                disabled={product.variants[selectedVariant]?.stock <= quantity}
+              >
+                +
+              </button>
             </div>
           </div>
 

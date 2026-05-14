@@ -12,6 +12,7 @@ User Pass: farhana.y@beautycare.com
 Name: Farhana Yeasmin
 
 Mastercard:	5555 5555 5555 4444
+Mastercard:	4242 4242 4242 4242
 CVC: 111
 04/28
 

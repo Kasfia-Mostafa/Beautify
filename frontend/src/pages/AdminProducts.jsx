@@ -168,55 +168,100 @@ function AdminProducts() {
         </button>
       </div>
 
-      <div className="bg-white dark:bg-zinc-900 rounded-[2.5rem] border border-zinc-100 dark:border-zinc-800 overflow-hidden shadow-sm">
-        <table className="w-full text-left">
-          <thead className="bg-zinc-50 dark:bg-zinc-800/50">
-            <tr>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400">#</th>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400">Product</th>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400">Category</th>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400">Price</th>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400">Stock</th>
-              <th className="px-8 py-6 font-label-caps text-[10px] tracking-widest uppercase text-zinc-400 text-right">Actions</th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-zinc-50 dark:divide-zinc-800">
-            {currentProducts.map((p, index) => (
-              <tr key={p._id} className="hover:bg-zinc-50/50 dark:hover:bg-zinc-800/20 transition-colors">
-                <td className="px-8 py-6 font-mono text-[10px] font-bold text-zinc-400">
-                  {String(indexOfFirstItem + index + 1).padStart(2, '0')}
-                </td>
-                <td className="px-8 py-6 flex items-center gap-4">
-                  <img src={p.images[0]} className="w-12 h-12 rounded-xl object-cover bg-zinc-50 border border-zinc-100 dark:border-zinc-800" />
-                  <span className="font-body-sm font-semibold text-zinc-900 dark:text-rose-100">{p.name}</span>
-                </td>
-                <td className="px-8 py-6 font-body-sm text-zinc-500">{p.category}</td>
-                <td className="px-8 py-6 font-body-sm font-bold text-zinc-900 dark:text-rose-100">৳{p.variants[0]?.price}</td>
-                <td className="px-8 py-6">
-                   <span className={`px-3 py-1 rounded-lg text-[10px] font-bold ${p.variants[0]?.stock > 10 ? 'bg-emerald-50 text-emerald-600' : 'bg-red-50 text-red-600'}`}>
-                     {p.variants[0]?.stock} IN STOCK
-                   </span>
-                </td>
-                <td className="px-8 py-6 text-right space-x-2">
-                  <button onClick={() => handleEdit(p)} className="p-2.5 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/10 rounded-xl transition-colors">
-                    <span className="material-symbols-outlined text-[20px]">edit</span>
-                  </button>
-                  <button onClick={() => handleDelete(p)} className="p-2.5 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/10 rounded-xl transition-colors">
-                    <span className="material-symbols-outlined text-[20px]">delete</span>
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      {/* Product Cards */}
+      <div className="space-y-3">
+        {/* Table Header */}
+        <div className="grid grid-cols-12 gap-4 px-8 py-5">
+          <div className="col-span-3 font-label-caps text-xs tracking-widest uppercase text-zinc-400">Product</div>
+          <div className="col-span-2 font-label-caps text-xs tracking-widest uppercase text-zinc-400">Category</div>
+          <div className="col-span-6 font-label-caps text-xs tracking-widest uppercase text-zinc-400">
+            <div className="grid grid-cols-3">
+              <span>Variants</span>
+              <span>Price</span>
+              <span>Stocks</span>
+            </div>
+          </div>
+          <div className="col-span-1 font-label-caps text-xs tracking-widest uppercase text-zinc-400 text-right">Actions</div>
+        </div>
+
+        {/* Product Rows */}
+        {currentProducts.map((p, index) => (
+          <div key={p._id} className="group grid grid-cols-12 gap-4 items-center bg-white dark:bg-zinc-900 px-8 py-5 rounded-2xl border border-zinc-100 dark:border-zinc-800 hover:border-rose-200 dark:hover:border-rose-900/30 hover:shadow-lg hover:shadow-rose-500/5 transition-all duration-300">
+
+            {/* Product Info */}
+            <div className="col-span-3 flex items-center gap-4">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-50 to-zinc-50 dark:from-zinc-800 dark:to-zinc-900 border border-zinc-100 dark:border-zinc-800 flex items-center justify-center overflow-hidden p-1.5 flex-shrink-0">
+                <img src={p.images[0]} className="w-full h-full object-contain mix-blend-multiply" alt={p.name} />
+              </div>
+              <div className="min-w-0">
+                <h4 className="font-semibold text-base text-zinc-900 dark:text-white truncate">{p.name}</h4>
+                <span className="text-xs text-zinc-400 font-medium uppercase tracking-wider">{p.brand}</span>
+              </div>
+            </div>
+
+            {/* Category */}
+            <div className="col-span-2">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-zinc-50 dark:bg-zinc-800 text-sm font-semibold text-zinc-600 dark:text-zinc-300 border border-zinc-100 dark:border-zinc-700">
+                <span className="w-1.5 h-1.5 rounded-full bg-rose-400"></span>
+                {p.category}
+              </span>
+            </div>
+
+            {/* Variants / Price / Stocks — unified rows */}
+            <div className="col-span-6">
+              <div className="flex flex-col gap-2">
+                {p.variants?.map((v, i) => {
+                  const stockColor = v.stock > 10
+                    ? 'text-emerald-600 dark:text-emerald-400'
+                    : v.stock > 0
+                    ? 'text-amber-600 dark:text-amber-400'
+                    : 'text-red-500 dark:text-red-400';
+                  const dotColor = v.stock > 10
+                    ? 'bg-emerald-500'
+                    : v.stock > 0
+                    ? 'bg-amber-500'
+                    : 'bg-red-500';
+                  return (
+                    <div key={i} className="grid grid-cols-3 items-center py-2 px-4 rounded-xl bg-zinc-50/70 dark:bg-zinc-800/40 border border-zinc-100/60 dark:border-zinc-800">
+                      <span className="text-sm font-bold text-zinc-700 dark:text-zinc-200 uppercase tracking-wide">{v.size}</span>
+                      <span className="text-sm font-bold text-zinc-900 dark:text-white">৳{v.price.toLocaleString()}</span>
+                      <span className={`text-sm font-bold flex items-center gap-1.5 ${stockColor}`}>
+                        <span className={`w-2 h-2 rounded-full ${dotColor}`}></span>
+                        {v.stock}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Actions */}
+            <div className="col-span-1 flex justify-end gap-1">
+              <button onClick={() => handleEdit(p)} className="w-10 h-10 flex items-center justify-center rounded-xl text-zinc-400 hover:text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-200">
+                <span className="material-symbols-outlined text-[20px]">edit</span>
+              </button>
+              <button onClick={() => handleDelete(p)} className="w-10 h-10 flex items-center justify-center rounded-xl text-zinc-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-all duration-200">
+                <span className="material-symbols-outlined text-[20px]">delete</span>
+              </button>
+            </div>
+          </div>
+        ))}
+
+        {/* Empty State */}
+        {currentProducts.length === 0 && !loading && (
+          <div className="flex flex-col items-center justify-center py-20 bg-white dark:bg-zinc-900 rounded-2xl border border-zinc-100 dark:border-zinc-800">
+            <span className="material-symbols-outlined text-5xl text-zinc-200 dark:text-zinc-700 mb-4">inventory_2</span>
+            <p className="text-zinc-400 text-sm">No products found</p>
+          </div>
+        )}
 
         {/* Pagination Controls */}
         {totalPages > 1 && (
-          <div className="flex justify-center items-center gap-2 p-8 bg-zinc-50 dark:bg-zinc-800/20 border-t border-zinc-50 dark:border-zinc-800">
+          <div className="flex justify-center items-center gap-2 pt-6 pb-2">
              <button
                disabled={currentPage === 1}
                onClick={() => setCurrentPage(prev => prev - 1)}
-               className="w-10 h-10 rounded-xl border border-zinc-200 dark:border-zinc-700 flex items-center justify-center disabled:opacity-30"
+               className="w-10 h-10 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 flex items-center justify-center disabled:opacity-30 hover:border-rose-300 transition-all"
              >
                 <span className="material-symbols-outlined text-[18px]">chevron_left</span>
              </button>
@@ -224,7 +269,7 @@ function AdminProducts() {
                 <button
                   key={i}
                   onClick={() => setCurrentPage(i + 1)}
-                  className={`w-10 h-10 rounded-xl font-bold text-xs ${currentPage === i + 1 ? 'bg-rose-500 text-white shadow-lg shadow-rose-500/20' : 'bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700'}`}
+                  className={`w-10 h-10 rounded-xl font-bold text-xs transition-all duration-200 ${currentPage === i + 1 ? 'bg-rose-500 text-white shadow-lg shadow-rose-500/25 scale-110' : 'bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 text-zinc-500 hover:border-rose-300'}`}
                 >
                   {i + 1}
                 </button>
@@ -232,7 +277,7 @@ function AdminProducts() {
              <button
                disabled={currentPage === totalPages}
                onClick={() => setCurrentPage(prev => prev + 1)}
-               className="w-10 h-10 rounded-xl border border-zinc-200 dark:border-zinc-700 flex items-center justify-center disabled:opacity-30"
+               className="w-10 h-10 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 flex items-center justify-center disabled:opacity-30 hover:border-rose-300 transition-all"
              >
                 <span className="material-symbols-outlined text-[18px]">chevron_right</span>
              </button>

@@ -109,7 +109,7 @@ function Cart() {
           {/* Cart Items */}
           <div className="flex-1 flex flex-col gap-4">
             {cart.map(item => (
-              <div key={item._id} className="flex gap-5 bg-surface border border-outline-variant rounded-xl p-5 items-start">
+              <div key={item.cartItemId} className="flex gap-5 bg-surface border border-outline-variant rounded-xl p-5 items-start">
                 <Link to={`/product/${item._id}`} className="flex-shrink-0">
                   <div className="w-24 h-24 bg-white/60 rounded-xl overflow-hidden flex items-center justify-center p-2">
                     <img src={item.images[0]} alt={item.name} className="w-full h-full object-contain mix-blend-multiply" />
@@ -118,16 +118,16 @@ function Cart() {
                 <div className="flex-1 flex flex-col gap-2">
                   <span className="font-label-caps text-xs text-secondary tracking-widest">{item.category}</span>
                   <Link to={`/product/${item._id}`}>
-                    <h3 className="font-headline-sm text-primary hover:underline">{item.name}</h3>
+                    <h3 className="font-headline-sm text-primary hover:underline">{item.name} {item.variants[0]?.size && `- ${item.variants[0].size}`}</h3>
                   </Link>
                   <span className="font-body-md text-on-surface-variant">৳ {item.variants[0]?.price} each</span>
                   <div className="flex items-center gap-3 mt-2">
                     <div className="flex items-center border border-outline-variant rounded-lg overflow-hidden">
-                      <button onClick={() => updateQuantity(item._id, item.quantity - 1)} className="px-3 py-1 text-primary hover:bg-surface-variant transition-colors">−</button>
+                      <button onClick={() => updateQuantity(item.cartItemId, item.quantity - 1)} className="px-3 py-1 text-primary hover:bg-surface-variant transition-colors">−</button>
                       <span className="px-4 py-1 font-body-md border-x border-outline-variant">{item.quantity}</span>
-                      <button onClick={() => updateQuantity(item._id, item.quantity + 1)} className="px-3 py-1 text-primary hover:bg-surface-variant transition-colors">+</button>
+                      <button onClick={() => updateQuantity(item.cartItemId, item.quantity + 1)} className="px-3 py-1 text-primary hover:bg-surface-variant transition-colors">+</button>
                     </div>
-                    <button onClick={() => removeFromCart(item._id)} className="text-red-400 hover:text-red-600 transition-colors ml-2">
+                    <button onClick={() => removeFromCart(item.cartItemId)} className="text-red-400 hover:text-red-600 transition-colors ml-2">
                       <span className="material-symbols-outlined text-[20px]">delete</span>
                     </button>
                   </div>

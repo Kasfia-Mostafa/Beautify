@@ -187,15 +187,15 @@ app.get('/api/auth/profile/:id', async (req, res) => {
 app.put('/api/auth/profile', async (req, res) => {
   try {
     const { userId, firstName, lastName, email, password, address, oldEmail } = req.body;
-    
+
     // Find user
     const user = await User.findById(userId || req.body.id);
     if (!user) return res.status(404).json({ message: 'User not found' });
-    
+
     if (firstName) user.firstName = firstName;
     if (lastName) user.lastName = lastName;
     if (email) user.email = email;
-    
+
     if (address) {
       // Map state to country if provided
       if (address.state && !address.country) {
@@ -204,7 +204,7 @@ app.put('/api/auth/profile', async (req, res) => {
       delete address.state;
 
       // Safely merge address to ensure we don't lose any subfields
-      const currentAddress = user.address 
+      const currentAddress = user.address
         ? (typeof user.address.toObject === 'function' ? user.address.toObject() : user.address)
         : {};
 
@@ -214,23 +214,23 @@ app.put('/api/auth/profile', async (req, res) => {
       };
       user.markModified('address');
     }
-    
+
     if (password) {
       user.password = password;
     }
-    
+
     await user.save();
-    
+
     res.json({
       message: 'Profile updated successfully',
-      user: { 
-        id: user._id, 
-        firstName: user.firstName, 
-        lastName: user.lastName, 
-        email: user.email, 
-        role: user.role, 
-        isAdmin: user.isAdmin, 
-        address: user.address 
+      user: {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        role: user.role,
+        isAdmin: user.isAdmin,
+        address: user.address
       }
     });
   } catch (error) {
@@ -299,11 +299,11 @@ app.post('/api/stripe-checkout', protect, async (req, res) => {
   try {
     const { items } = req.body;
     console.log('Creating checkout session for items:', items.length);
-    
+
     const line_items = items.map(item => {
       const price = item.variants[0]?.price || 0;
       const imageUrl = item.images[0] && item.images[0].startsWith('http') ? item.images[0] : null;
-      
+
       console.log(`Item: ${item.name}, Price: ${price}, Quantity: ${item.quantity}`);
 
       return {
@@ -314,7 +314,7 @@ app.post('/api/stripe-checkout', protect, async (req, res) => {
             images: imageUrl ? [imageUrl] : [],
             description: item.category,
           },
-          unit_amount: Math.round(price * 100), 
+          unit_amount: Math.round(price * 100),
         },
         quantity: item.quantity,
       };
@@ -361,8 +361,8 @@ app.post('/api/stripe-checkout', protect, async (req, res) => {
     } else {
       console.error('Stripe API Error:', error);
     }
-    res.status(error.statusCode || 500).json({ 
-      message: error.message, 
+    res.status(error.statusCode || 500).json({
+      message: error.message,
       type: error.type,
       detail: error.raw?.message || error.message
     });
@@ -378,7 +378,7 @@ app.get('/api/orders/my-orders', async (req, res) => {
     const { email } = req.query;
     const user = await User.findOne({ email });
     if (!user) return res.status(404).json({ message: 'User not found' });
-    
+
     const orders = await Order.find({ user: user._id }).sort('-createdAt');
     res.json(orders);
   } catch (error) {
@@ -390,7 +390,7 @@ app.get('/api/orders/my-orders', async (req, res) => {
 app.post('/api/orders', protect, async (req, res) => {
   try {
     const { orderItems, shippingAddress, paymentMethod, itemsPrice, shippingPrice, totalPrice } = req.body;
-    
+
     if (orderItems && orderItems.length === 0) {
       return res.status(400).json({ message: 'No order items' });
     }
@@ -458,7 +458,7 @@ app.get('/api/users', async (req, res) => {
 app.patch('/api/users/:id/role', async (req, res) => {
   try {
     const { role } = req.body;
-    
+
     // Check limits
     if (role === 'admin') {
       const adminCount = await User.countDocuments({ role: 'admin' });
@@ -491,7 +491,7 @@ app.patch('/api/orders/:id/status', async (req, res) => {
     const { status } = req.body;
     const order = await Order.findById(req.params.id);
     if (!order) return res.status(404).json({ message: 'Order not found' });
-    
+
     // Decrease stock if status is changed to Delivered
     if (status === 'Delivered' && order.status !== 'Delivered') {
       for (const item of order.orderItems) {
@@ -505,13 +505,13 @@ app.patch('/api/orders/:id/status', async (req, res) => {
         }
       }
     }
-    
+
     order.status = status;
     await order.save();
-    
+
     // Log activity
     await logActivity('order_update', `Order #${order._id.toString().substring(18).toUpperCase()} status changed to ${status}`);
-    
+
     res.json(order);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -652,7 +652,7 @@ const connectDB = async () => {
 // Global Error Handler
 app.use((err, req, res, next) => {
   console.error('SERVER ERROR:', err);
-  res.status(500).json({ 
+  res.status(500).json({
     message: err.message || 'Internal Server Error',
     error: err
   });

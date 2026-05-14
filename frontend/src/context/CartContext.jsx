@@ -31,32 +31,36 @@ export function CartProvider({ children }) {
   }, [user, prevUser]);
 
   const addToCart = (product, quantityToAdd = 1) => {
-    const existing = cart.find(item => item._id === product._id);
-    if (existing) {
+    // Generate a unique ID for the cart item based on the product ID and the selected variant
+    const variantId = product.variants && product.variants[0]?.size ? product.variants[0].size : 'default';
+    const cartItemId = `${product._id}-${variantId}`;
+
+    const existingItem = cart.find(item => item.cartItemId === cartItemId);
+    if (existingItem) {
       toast.success("Increased quantity in cart");
     } else {
       toast.success("Added to cart");
     }
-    
+
     setCart(prev => {
-      const existingItem = prev.find(item => item._id === product._id);
-      if (existingItem) {
+      const isExisting = prev.find(item => item.cartItemId === cartItemId);
+      if (isExisting) {
         return prev.map(item =>
-          item._id === product._id ? { ...item, quantity: item.quantity + quantityToAdd } : item
+          item.cartItemId === cartItemId ? { ...item, quantity: item.quantity + quantityToAdd } : item
         );
       }
-      return [...prev, { ...product, quantity: quantityToAdd }];
+      return [...prev, { ...product, cartItemId, quantity: quantityToAdd }];
     });
   };
 
-  const removeFromCart = (productId) => {
-    setCart(prev => prev.filter(item => item._id !== productId));
+  const removeFromCart = (cartItemId) => {
+    setCart(prev => prev.filter(item => item.cartItemId !== cartItemId));
     toast.success("Removed from cart");
   };
 
-  const updateQuantity = (productId, quantity) => {
+  const updateQuantity = (cartItemId, quantity) => {
     if (quantity < 1) return;
-    setCart(prev => prev.map(item => item._id === productId ? { ...item, quantity } : item));
+    setCart(prev => prev.map(item => item.cartItemId === cartItemId ? { ...item, quantity } : item));
   };
 
   const clearCart = () => setCart([]);
