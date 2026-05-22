@@ -207,9 +207,9 @@ function Shop() {
                   </Link>
                   <div className="p-5 flex flex-col flex-grow bg-gradient-to-b from-surface/0 to-surface/80">
                     <span className="font-label-caps text-label-caps text-secondary tracking-widest mb-2">{product.category}</span>
-                    <Link to={`/product/${product._id}`}>
-                      <h2 className="font-headline-sm text-headline-sm text-primary mb-2 line-clamp-2 leading-snug min-h-[3rem] hover:underline">{product.name}</h2>
-                    </Link>
+
+                      <h2 className="font-headline-sm text-headline-sm text-primary mb-2 line-clamp-2 leading-snug min-h-[3rem]">{product.name}</h2>
+
                     <div className="mt-auto pt-4 flex flex-col gap-4">
                       <span className="font-body-lg text-body-lg text-on-primary-fixed-variant font-medium">৳ {product.variants[0]?.price}</span>
                       <button
@@ -219,7 +219,10 @@ function Shop() {
                         }}
                         className="w-full py-2.5 bg-primary-container/30 hover:bg-primary-container text-primary font-label-caps text-label-caps tracking-widest uppercase border border-primary/10 rounded-md transition-colors duration-300"
                       >
-                        Add to Bag
+                      <Link to={`/product/${product._id}`}>
+                      <h2 className="">See Product Details</h2>
+                    </Link>
+
                       </button>
                     </div>
                   </div>
