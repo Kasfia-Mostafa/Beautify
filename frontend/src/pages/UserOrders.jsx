@@ -197,7 +197,7 @@ function UserOrders() {
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row items-end sm:items-center gap-3">
-                  {order.status?.toLowerCase() === 'delivered' && (
+                  {order.status?.toLowerCase() !== 'cancelled' && (
                     <button 
                       onClick={() => generateInvoice(order)}
                       className="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white border border-rose-200 text-rose-600 text-xs font-bold uppercase tracking-wider hover:bg-rose-50 hover:border-rose-300 transition-colors shadow-sm"

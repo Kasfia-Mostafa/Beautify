@@ -291,7 +291,7 @@ function AdminOrders() {
                       <option value="Delivered" className="bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100">DELIVERED</option>
                       <option value="Cancelled" className="bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100">CANCELLED</option>
                     </select>
-                    {o.status?.toLowerCase() === 'delivered' && (
+                    {o.status?.toLowerCase() !== 'cancelled' && (
                       <button
                         onClick={() => generateInvoice(o)}
                         className="flex items-center gap-1 px-3 py-1.5 rounded-xl bg-white border border-rose-200 text-rose-600 text-[10px] font-bold uppercase tracking-widest hover:bg-rose-50 hover:border-rose-300 transition-colors shadow-sm"
