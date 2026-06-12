@@ -2,21 +2,29 @@
 
 Beautify is a modern e-commerce platform for transformative skincare and beauty products, featuring a full-featured admin dashboard, blog, and user management system. The project is split into a React + Vite frontend and a Node.js + Express + MongoDB backend.
 
+Live Link: [https://beautify-nine.vercel.app/](https://beautify-nine.vercel.app/)
+
+
 ![Project](https://github.com/Kasfia-Mostafa/Beautify/blob/3bb4631ff6d03589ac8663b4e70ac5bec4e47433/beautify.png)
 ---
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Admin & Test Accounts](#admin--test-accounts)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
-- [Admin & Test Accounts](#admin--test-accounts)
 
 ---
 
 ## Project Overview
 Beautify is a web application for a skincare and beauty brand. It allows users to browse, filter, and purchase products, read blogs, manage their profiles, and track orders. Admins and managers can manage products, orders, users, and content through a secure dashboard.
+
+---
+
+## Admin & Test Accounts
+See [backend/Test.txt](backend/Test.txt) for sample admin, manager, and user credentials, as well as test card details.
 
 ---
 
@@ -115,8 +123,3 @@ Beautify/
 │   └── ...
 └── ...
 ```
-
----
-
-## Admin & Test Accounts
-See [backend/Test.txt](backend/Test.txt) for sample admin, manager, and user credentials, as well as test card details.
