@@ -7,6 +7,27 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+let isConnected = false;
+const connectDB = async () => {
+  if (isConnected || mongoose.connection.readyState >= 1) {
+    return;
+  }
+  try {
+    const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/beautify';
+    await mongoose.connect(uri);
+    isConnected = true;
+    console.log('MongoDB Connected');
+  } catch (error) {
+    console.error('MongoDB Connection Failed:', error.message);
+  }
+};
+
+// Ensure DB connection for serverless function
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
 // Request logging for debugging
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.url}`);
@@ -639,15 +660,7 @@ app.delete('/api/blogs/:id', protect, async (req, res) => {
 });
 
 
-const connectDB = async () => {
-  try {
-    const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/beautify';
-    await mongoose.connect(uri);
-    console.log('MongoDB Connected');
-  } catch (error) {
-    console.error('MongoDB Connection Failed:', error.message);
-  }
-};
+
 
 // Global Error Handler
 app.use((err, req, res, next) => {
@@ -663,9 +676,15 @@ app.use((req, res) => {
   res.status(404).json({ message: `Route ${req.originalUrl} not found` });
 });
 
+
+
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server is running on port ${PORT}`);
-  connectDB();
-});
+if (require.main === module) {
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on port ${PORT}`);
+    connectDB();
+  });
+} else {
+  module.exports = app;
+}
