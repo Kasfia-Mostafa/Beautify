@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useWishlist } from '../context/WishlistContext';
 import { useAuth } from '../context/AuthContext';
@@ -55,7 +55,7 @@ function Home() {
               <div key={product._id} className={`relative group rounded-xl overflow-hidden ${index === 0 ? 'md:col-span-2 md:row-span-2 h-[400px] md:h-full' : 'h-[300px] md:h-auto'}`}>
                 <img alt={product.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src={product.images[0]} />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors duration-500"></div>
-                
+
                 {/* Wishlist Button */}
                 <button
                   onClick={(e) => {

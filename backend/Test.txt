@@ -17,8 +17,6 @@ CVC: 111
 04/28
 
 
-
-
 // Start Backend
 cd backend
 node server.js
